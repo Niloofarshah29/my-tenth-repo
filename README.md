@@ -1,6 +1,6 @@
 # my-tenth-repo
 repo
-import jso
+import json
 from cryptography.fernet import Fernet
 
 key = Fernet.generate_key()
