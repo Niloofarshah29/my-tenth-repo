@@ -1,7 +1,7 @@
 # my-tenth-repo
 repo
 import json
-from cryptography.fernet import Fernet
+from cryptography.fernet import Ferne
 
 key = Fernet.generate_key()
 cipher = Fernet(key)
