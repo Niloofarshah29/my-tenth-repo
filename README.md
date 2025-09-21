@@ -1,5 +1,5 @@
 # my-tenth-repo
-rep
+repo
 import json
 from cryptography.fernet import Fernet
 
