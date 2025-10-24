@@ -9,7 +9,7 @@ cipher = Fernet(key)
 passwords = {"gmail": "mypassword123"}
 encrypted = cipher.encrypt(json.dumps(passwords).encode())
 
-wit open("passwords.enc", "wb") as f:
+with open("passwords.enc", "wb") as f:
     f.write(encrypted)
 
 print("Passwords encrypted and saved!")
