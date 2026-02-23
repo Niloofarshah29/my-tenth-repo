@@ -3,7 +3,7 @@ repo
 import json
 from cryptography.fernet import Fernet
 
-ke = Fernet.generate_key()
+key = Fernet.generate_key()
 cipher = Fernet(key)
 
 passwords = {"gmail": "mypassword123"}
